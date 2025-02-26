@@ -2,13 +2,12 @@
   "homepage": "http://quickheaven.github.io/react-app-template",
   "name": "react",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "start": "npm run build && live-server dist"
+    "start": "npm run build && node ./"
   },
   "keywords": [],
   "author": "",
