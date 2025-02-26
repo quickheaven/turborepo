@@ -1,1 +1,1 @@
-# react-app-template
+# ReactJS App Template
