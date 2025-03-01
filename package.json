@@ -5,9 +5,9 @@
   "scripts": {
     "start": "parcel ./src/index.html",
     "prebuild-dev": "shx rm -rf dist/*",
-    "build-dev": "parcel ./src/index.html --no-optimize --public-url https://quickheaven.github.io/react-app-template/",
+    "build-dev": "parcel ./src/index.html --no-optimize --public-url ./",
     "prebuild": "shx rm -rf dist/*",
-    "build": "parcel ./src/index.html --public-url https://quickheaven.github.io/react-app-template/",
+    "build": "parcel ./src/index.html --public-url ./",
     "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "keywords": [],
